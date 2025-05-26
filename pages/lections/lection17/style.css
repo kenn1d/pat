@@ -1,0 +1,121 @@
+.nav1 li{
+    color: blue;
+}
+
+.nav2 li{
+    font-family: Calibri;
+    width: 200px;
+    color: blue;
+    list-style-type: none;
+    border: 1px solid blue;
+    padding: 8px 12px;
+    margin-bottom: 3px;
+}
+.nav2 li:hover {
+    font-weight: bold;
+}
+
+.nav3 li{
+    font-family: Calibri;
+    width: 200px;
+    color: white;
+    background: rgb(60, 46, 0);
+    font-weight: bold;
+    list-style-type: none;
+    border: 2px solid black;
+    padding: 8px 12px;
+    margin-bottom: 3px;
+}
+.nav3 li:hover {
+    color: black;
+    background: white;
+}
+
+.nav4 li{
+    font-family: Calibri;
+    width: 200px;
+    color: white;
+    background: rgb(0, 223, 235);
+    font-weight: bold;
+    list-style-type: none;
+    padding: 8px 12px;
+    margin-bottom: 3px;
+}
+.nav4 li:hover{
+    border: 1px solid rgb(0, 238, 255);
+    color: blue;
+    background: white;  
+}
+.nav4 li:hover::before{
+    content: url(image/blue.png);
+}
+
+.nav5 li {
+    border: 1px solid blue;
+    display: inline-block;
+    text-align: center;
+    color: blue;
+    font-family: Calibri;
+    list-style-type: none;
+    padding: 3px 12px;
+    margin-bottom: 3px;
+}
+.nav5 li:hover{
+    color: orange;
+}
+
+.nav6 li {
+    border: 1px solid blue;
+    display: inline-block;
+    text-align: center;
+    color: blue;
+    font-family: Calibri;
+    list-style-type: none;
+    padding: 3px 12px;
+    margin-bottom: 3px;
+}
+.nav6 li:hover{
+    border: 1px solid black;
+    background: rgb(60, 46, 0);
+    color: white;
+}
+
+.nav7 li{
+    border: 1px solid blue;
+    display: inline-block;
+    text-align: center;
+    color: blue;
+    font-family: Calibri;
+    list-style-type: none;
+    padding: 3px 12px;
+    margin-bottom: 3px;
+}
+
+.nav8 ul {
+    background: orange;
+    padding: 0;
+    margin: 0;
+}
+.nav8 li {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+}
+.nav8 div {
+    text-align: center;
+    color: White;
+    font-family: Calibri;
+    list-style-type: none;
+}
+.nav8 li:hover{
+    background: rgb(214, 7, 7);
+    color: white;
+}
+
+.table {
+    font-family: Calibri;
+}
+
+.tr1 {
+    border-bottom: 1px;
+}
