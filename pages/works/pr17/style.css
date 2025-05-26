@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 480px;
+}
+header {
+    background: url(img/125.png)
+        center center;
+    background-size: cover;
+}
+
+
+
+.top-header {
+    padding: 20px;
+}
+h1 {
+    color: #fff;
+}
+.burger {
+    width: 40px;
+    height: 30px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+.left-elements {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.profile {
+    width: 40px;
+    height: 40px;
+}
+.search {
+    height: 30px;
+    width: 30x;
+}
+.menu {
+    display: flex;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+.first {
+    font-weight: bold;
+    border-bottom: 3px solid red;
+}
+nav div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+div a {
+    padding: 5px;
+    color: #fff;
+    text-decoration: none;
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+.gallery {
+    padding: 5px;
+    background: #fff;
+    display: grid;
+    width: 480px;
+    grid-template-columns: repeat(3, 155px);
+    grid-template-rows: repeat(3, 200px);
+    gap: 5px;
+}
+.img1 {
+    background: url(img/121.png)
+        center center;
+    background-size: cover;
+}
+.img2 {
+    background: url(img/122.png)
+        center center;
+    background-size: cover;
+}
+.img3 {
+    background: url(img/123.png)
+        center center;
+    background-size: cover;
+}
+.img4 {
+    background: url(img/128.png)
+        center center;
+    background-size: cover;
+    grid-column: 1/2;
+}
+.img5 {
+    background: url(img/124.png)
+        center center;
+    background-size: cover;
+    grid-row: 2/3;
+    grid-column: 2/span 3;
+    width: 315px;
+}
+.img6 {
+    background: url(img/127.png)
+        center center;
+    background-size: cover;
+    grid-row: 3/4;
+    grid-column: 1/span 2;
+    width: 315px;
+}
+.img7 {
+    background: url(img/126.png)
+        center center;
+    background-size: cover;
+    grid-column: 3/4;
+}
