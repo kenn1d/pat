@@ -1,0 +1,84 @@
+* {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+div {
+    font-size: 16px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul {
+    background: #f2d53c;
+}
+
+li {
+    padding: 10px;
+}
+
+body {
+    background-color: #fceed1;
+}
+
+.prew {
+    width: 350px;
+    height: 200px;
+}
+.new1 {
+    background: url(../img/plane.jpg);
+    background-size: cover;
+}
+.new2 {
+    background: url(../img/calendar.png);
+    height: 500px;
+    background-size: cover;
+}
+
+.skill {
+    width: 350px;
+    height: 200px;
+}
+.si1 {
+    background: url(../img/point.jpg);
+    background-size: cover;
+}
+.si2 {
+    background: url(../img/work.jpg);
+    background-size: cover;
+}
+
+.cources {
+    width: 350px;
+    height: 200px;
+}
+.ci1 {
+    background: url(../img/sertificate1.jpg);
+    height: 250px;
+    background-size: cover;
+}
+
+.content {
+    display: flex;
+    gap: 10px;
+}
+main {
+    width: 70%;
+}
+aside {
+    width: 30%;
+}
