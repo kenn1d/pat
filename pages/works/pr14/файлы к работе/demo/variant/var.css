@@ -1,0 +1,26 @@
+.box {
+    margin: 100px 100px;
+    height: 100px;
+    width: 100px;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXKnJVy7FhxSIcHF6R1q_xTgNlw5mQlXFdCA&s)
+        center center;
+    background-size: cover;
+    border-radius: 10px;
+}
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.box:hover {
+    animation-name: scale;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: .5s;
+}

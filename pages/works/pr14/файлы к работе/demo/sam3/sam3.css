@@ -1,0 +1,24 @@
+@keyframes slide {
+    0% {
+        left: 0;
+        top: 10px;
+    }
+    100% {
+        left: 500px;
+        top: 10px;
+    }
+}
+.ball {
+    margin-top: 10px;
+    background: #35c4ce;
+    border: 2px solid black;
+    height: 95px;
+    position: absolute;
+    width: 95px;
+}
+.stage:hover .ball {
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: .5s;
+}
