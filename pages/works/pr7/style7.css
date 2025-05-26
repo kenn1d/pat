@@ -1,0 +1,90 @@
+.p1 {
+    text-align: center;
+}
+
+.p2 {
+    text-indent: 10px;
+}
+
+.p3 {
+    line-height: 10px;
+}
+
+.p4 img {
+    width: 50px;
+    vertical-align: top;
+    /*Применяется только к строчным элементам, к изображениям и полям форм*/
+}
+
+.p5 {
+    word-spacing: 10px;
+}
+
+.p6 {
+    letter-spacing: 2px;
+}
+
+.p7 {
+    white-space: nowrap;
+}
+
+.p8 {
+    tab-size: 16;
+}
+
+.p9 {
+    text-transform: capitalize;
+}
+
+.p10 {
+    direction: rtl;
+}
+
+#p1 {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+#p2 {
+    text-decoration: line-through;
+}
+
+#p3:first-letter {
+    font-size: 2em;
+    margin-right: 2px; 
+    color: #EE9966;
+    font-weight: bold;
+    text-shadow: -1px -1px 1px white, 1px 1px 1px #9E9D99;
+}
+
+#p4 {
+    quotes: '⹂' '»';
+}
+
+#p5 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#p6 {
+    font-style: italic;
+}
+
+#p7 {
+    font-variant: small-caps;
+}
+
+#p8 {
+    font-weight: bold;
+}
+
+#p9 {
+    font-size: x-large;
+}
+
+#p10 {
+    color: cadetblue;
+}
+
+#p11 {
+    font: italic bold 14px/1.5 Times, 'New Century Schoolbook', serif;
+}
