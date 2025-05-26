@@ -1,0 +1,87 @@
+@font-face {
+    font-family: OpenSansRegular;
+    src: url(fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: OpenSansLight;
+    src: url(fonts/OpenSans-Light.ttf);
+}
+
+* {
+    font-family: OpenSansLight;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    margin: 0 auto;
+    padding-top: 192px;
+    width: 1140px;
+}
+
+/* главная - косметика */
+
+.cosmetica {
+    display: flex;
+    margin-bottom: 64px;
+    justify-content: space-between;
+}
+.cosmetica h2 {
+    width: 331px;
+    font-size: 35px;
+}
+.cosmetica p {
+    width: 373px;
+    font-size: 14px;
+    text-align: justify;
+}
+.cosmetica img {
+    width: 300px;
+    height: 250px;
+}
+
+/* главная - парфюмы */
+
+.parfume {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 47px;
+}
+.parfume h2 {
+    font-size: 35px;
+    width: 331px;
+}
+.parfume p {
+    text-align: justify;
+    width: 373px;
+    font-size: 14px;
+}
+.parfume img {
+    width: 300px;
+    height: 250px;
+}
+
+/* подвал */
+
+footer {
+    display: flex;
+    background: url(img/3.jpg)
+    center center;
+    background-size: cover;
+    justify-content: center;
+    gap: 167px;
+}
+footer div {
+    margin-top: 66px;
+    margin-bottom: 73px;
+}
+footer .num {
+    text-align: center;
+    font-family: OpenSansRegular;
+    font-size: 80px;
+    color: white;
+}
+footer .txt {
+    color: white;
+    text-align: center;
+}
