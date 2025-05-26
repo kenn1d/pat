@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "Roboto"; 
+    src: url("Roboto.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+.logo {
+    background: url(images/Logo.png)
+        center center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.content {
+    width: 50%;
+    margin: 0 auto;
+}
+
+nav {
+    margin: 10px;
+}
+
+.nav1 ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background: grey;
+}
+
+.nav2 ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+.nav1 li a {
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.nav2 li a {
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.nav1 li a:hover {
+    background: white;
+    color: black;
+}
+
+.nav2 li a:hover {
+    color: grey;
+}
+
+.container a {
+    margin: 30px;
+    display: block;
+    text-align: right;
+}
+
+section {
+    padding: 0 10px;
+    margin: 10px;
+    border: 2px solid grey;
+}
+
+.img1 {
+    background: url(images/1.png)
+        center center;
+    background-size: cover;
+    width: 220px;
+    height: 122px;
+    float: left;
+    margin-right: 15px;
+}
+
+.img2 {
+    background: url(images/2.png)
+        center center;
+    background-size: cover;
+    width: 220px;
+    height: 122px;
+    float: left;
+    margin-right: 15px;
+}
+
+.img3 {
+    background: url(images/3.png)
+        center center;
+    background-size: cover;
+    width: 220px;
+    height: 122px;
+    float: left;
+    margin-right: 15px;
+}
+
+a {
+    font-family: Roboto;
+    text-decoration: none;
+}
+
+.container p {
+    margin-top: 0;
+    text-align: justify;
+    font-family: Roboto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: Roboto;
+}
+
