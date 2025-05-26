@@ -1,0 +1,89 @@
+@font-face {
+    font-family: QReg;
+    src: url(font/Quicksand-Regular.ttf);
+}
+@font-face {
+    font-family: QBold;
+    src: url(font/Quicksand-Bold.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+section {
+    width: 350px;
+}
+
+.photo1{
+    background: url(img/watch1.jpg)
+        center center;
+    background-size: cover;
+    width: 350px;
+    height: 220px;
+}
+.photo2{
+    background: url(img/watch4.jpg)
+        center center;
+    background-size: cover;
+    width: 350px;
+    height: 220px;
+}
+.photo3{
+    background: url(img/watch3.jpg)
+        center center;
+    background-size: cover;
+    width: 350px;
+    height: 220px;
+}
+
+.information {
+    font-family: QReg;
+    border-left: solid rgba(128, 128, 128, 0.199) 1px;
+    border-right: solid rgba(128, 128, 128, 0.199) 1px;
+    border-bottom: solid rgba(128, 128, 128, 0.199) 1px;
+}
+.margin {
+    margin: 10px;
+}
+.text {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+h3 {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.panel {
+    display: flex;
+    gap: 10px;
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+.icon {
+    width: 15px;
+    height: 15px;
+}
+.author {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.view {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.information p {
+    color: rgb(128, 128, 128);
+}
